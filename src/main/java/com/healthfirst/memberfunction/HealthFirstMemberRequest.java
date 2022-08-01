@@ -1,12 +1,12 @@
 package com.healthfirst.memberfunction;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Setter
+@Getter
 public class HealthFirstMemberRequest {
     private String memberId;
 }

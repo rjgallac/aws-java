@@ -3,6 +3,7 @@ provider:
   name: aws
   runtime: java8
   timeout: 10
+  region: eu-west-2
 package:
   artifact: target/aws-java-spring-cloud-function-demo-0.0.1-SNAPSHOT-aws.jar
 functions:
